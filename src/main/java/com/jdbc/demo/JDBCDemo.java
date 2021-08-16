@@ -9,7 +9,7 @@ public class JDBCDemo {
 	public static void main(String[] args) {
 		String DB_URL = "jdbc:mysql://localhost:3306/practice";
 		String DB_USER = "root";
-		String DB_PASSWORD = "Nuvelabs123$";
+//		String DB_PASSWORD = "Nuvelabs123$";
 
 		try (Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 				Statement statement = connection.createStatement();) {
